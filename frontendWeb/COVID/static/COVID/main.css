@@ -3,7 +3,7 @@ position: fixed;
 max-width: 20%;
 background-color: #343a40;
 height: 100%;
-padding-top: 1%;
+padding-top: 5%;
 }
 
 #main{
@@ -17,26 +17,33 @@ color: #f8f9fa
 }
 
 .status_page{
-padding-left: 10.5%;
+padding-bottom: 15%;
+padding-left: 15%;
+padding-top: 2.5%;
 }
 
-
+#form_cases {
+padding-left: 30%;
+}
 #Confirmed-Cases {
+position: fixed;
 background-color: #4cb4c7;
 }
 #Total-Deaths {
+position: fixed;
 background-color: #7abecc;
 }
 #Total-Recoveries {
+position: fixed;
 background-color: #7CD1C0;
 }
 .container{
 padding: 16px;
 }
 #graphs_1_2 {
-padding-left: 4%;
+padding-left: 15%;
 }
 
 #graphs_3_4 {
-padding-left: 4%;
+padding-left: 15%;
 }

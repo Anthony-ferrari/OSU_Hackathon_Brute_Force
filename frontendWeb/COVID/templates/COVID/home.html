@@ -13,9 +13,26 @@
           </ul>
       </div>
 
+
         <div class="container">
             <div class="status_page">
                 {% include 'COVID/status.html'%}
+            </div>
+        </div>
+
+
+        <div class="container" id="form_cases">
+            <div>
+                <form>
+                  <div class="form-group">
+                  <div class="col-md-8 mb-3">
+                    <label for="inputdeaths1">Actual Number of Cases in your County</label>
+                    <input type="text" class="form-control" id="input1" placeholder="Please Input Numbers of Deaths in Your County">
+                    <small id="subs1" class="form-text text-muted"> Input only integers.</small>
+                    <button type="submit" class="btn btn-info float-right">Submit</button>
+                   </div>
+                  </div>
+                </form>
             </div>
         </div>
 
