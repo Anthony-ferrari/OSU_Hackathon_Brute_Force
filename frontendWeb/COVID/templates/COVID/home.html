@@ -4,7 +4,7 @@
 
   <div class="row">
 
-      <div class="col-xs-12" id="sidebar">
+      <div class="col-xs-4" id="sidebar">
           <ul>
               <a href="" class="dashboard">Data Used (CSV/JSON)</a>
           </ul>
@@ -12,35 +12,61 @@
               <a href="" class="dashboard">References</a>
           </ul>
       </div>
-<div class="container">
-        <div class="col-xs-8" id="main">
-          <h1>Main Area</h1>
-      </div>
-</div>
 
-  </div>
+        <div class="container">
+            <div class="status_page">
+                {% include 'COVID/status.html'%}
+            </div>
+        </div>
 
 
-<!--<div class="container-fluid">-->
-<!--    <div class="row">-->
-<!--        <div class="col-3 px-1 bg-dark position-fixed" id="sticky-sidebar">-->
-<!--                <ul>-->
-<!--                <li class="side-item">-->
-<!--                        <a href="" class="nav-link">Data Used (CSV/JSON)</a>-->
-<!--                </li>-->
-<!--                        <li class="side-item">-->
-<!--                                <a href="" class="nav-link">References</a>-->
-<!--                        </li>-->
-<!--                </ul>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div>-->
-<!--        <div class="col offset-3" id="main">-->
-<!--            <h1>Main Area</h1>-->
-<!--            ...-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
+
+       <div class="container" id="graphs_1_2">
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/pattern1.jpeg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Graph of X by Y</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/pattern2.jpeg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Graph2 of X2 by Y2</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+
+
+       <div class="container" id="graphs_3_4">
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/pattern1.jpeg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Graph3 of X by Y</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/pattern2.jpeg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Graph4 of X2 by Y2</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+
+
 {% endblock content %}
 
 

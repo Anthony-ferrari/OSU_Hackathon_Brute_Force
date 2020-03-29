@@ -1,5 +1,4 @@
 #sidebar {
-justify-content: flex-start;
 position: fixed;
 max-width: 20%;
 background-color: #343a40;
@@ -9,9 +8,35 @@ padding-top: 1%;
 
 #main{
 padding-top: 1%;
+padding-left: 20%;
 Text-align: center;
 }
 
 .dashboard {
 color: #f8f9fa
+}
+
+.status_page{
+padding-left: 25%;
+}
+
+
+#Confirmed-Cases {
+background-color: #4cb4c7;
+}
+#Total-Deaths {
+background-color: #7abecc;
+}
+#Total-Recoveries {
+background-color: #7CD1C0;
+}
+.container{
+padding: 16px;
+}
+#graphs_1_2 {
+padding-left: 20%;
+}
+
+#graphs_3_4 {
+padding-left: 20%;
 }
