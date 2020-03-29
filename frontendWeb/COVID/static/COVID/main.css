@@ -1,0 +1,17 @@
+#sidebar {
+justify-content: flex-start;
+position: fixed;
+max-width: 20%;
+background-color: #343a40;
+height: 100%;
+padding-top: 1%;
+}
+
+#main{
+padding-top: 1%;
+Text-align: center;
+}
+
+.dashboard {
+color: #f8f9fa
+}
